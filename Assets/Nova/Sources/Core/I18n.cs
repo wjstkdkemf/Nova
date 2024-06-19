@@ -30,7 +30,7 @@ namespace Nova
 
         // If you want to support different languages, please update the logics in GetSystemLocale and FallbackLocale
         public static readonly SystemLanguage[] SupportedLocales =
-            {SystemLanguage.ChineseSimplified, SystemLanguage.English};
+            {SystemLanguage.ChineseSimplified, SystemLanguage.English , SystemLanguage.Korean};
 
         public static SystemLanguage DefaultLocale => SupportedLocales[0];
 
@@ -79,9 +79,12 @@ namespace Nova
             {
                 return SystemLanguage.ChineseSimplified;
             }
-            else
+            else if(locale == SystemLanguage.English)
             {
                 return SystemLanguage.English;
+            }
+            else{//(locale == SystemLanguage.Korean)
+                return SystemLanguage.Korean;
             }
         }
 

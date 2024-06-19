@@ -516,8 +516,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u6D4B\u8BD5\n\u5F88\u591A\u884C\n\u5F88\u957F\u5F88\u957F\u5F88\u957F\u5F88\u957F\u5F88\u957F\u5F88\u957F\u5F88\u957F\u5F88\u957F\u5F88\u957F\u5F88\u957F\u5F88\u957F\u5F88\u957F\u5F88\u957F\u5F88\u957F\u5F88\u957F\u5F88\u957F\u5F88\u957F\u5F88\u957F\u5F88\u957F\u5F88\u957F\u5F88\u957F\u5F88\u957F\u5F88\u957F\u5F88\u957F\u5F88\u957F\u5F88\u957F\u5F88\u957F\u5F88\u957F\n\u7684\u6587\u5B57"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 06b54290bbba6437bbe1ce3d2767fdb1, type: 2}
-  m_sharedMaterial: {fileID: 21291203167983366, guid: 06b54290bbba6437bbe1ce3d2767fdb1, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9e6f6dea38253fd4cb9d5e1dc66a211b, type: 2}
+  m_sharedMaterial: {fileID: 5484898832419685705, guid: 9e6f6dea38253fd4cb9d5e1dc66a211b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -595,6 +595,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3776818522204c5d88cfa8593c4f00dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  disableTypeset: 0
   canRefreshLineBreak: 1
 --- !u!114 &8413986888227116628
 MonoBehaviour:

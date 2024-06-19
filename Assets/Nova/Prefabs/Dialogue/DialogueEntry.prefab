@@ -91,8 +91,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57\u5B57"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 06b54290bbba6437bbe1ce3d2767fdb1, type: 2}
-  m_sharedMaterial: {fileID: 21291203167983366, guid: 06b54290bbba6437bbe1ce3d2767fdb1, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9e6f6dea38253fd4cb9d5e1dc66a211b, type: 2}
+  m_sharedMaterial: {fileID: 5484898832419685705, guid: 9e6f6dea38253fd4cb9d5e1dc66a211b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -116,8 +116,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -170,6 +170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3776818522204c5d88cfa8593c4f00dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  disableTypeset: 0
   canRefreshLineBreak: 1
 --- !u!114 &114535930297849118
 MonoBehaviour:
@@ -185,8 +186,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   configKeyName: FontSize
   multipliers:
-    keys: 0a000000
+    keys: 0a00000017000000
     values:
+    - 0.75
     - 0.75
 --- !u!114 &2069780267694724769
 MonoBehaviour:
